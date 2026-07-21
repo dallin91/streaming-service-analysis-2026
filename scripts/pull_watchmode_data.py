@@ -20,7 +20,7 @@ load_dotenv()
 
 API_KEY = os.environ.get("WATCHMODE_API_KEY")
 BASE_URL = "https://api.watchmode.com/v1/list-titles/"
-OUTPUT_FILE = "data/streaming_titles_raw.csv"
+OUTPUT_FILE = "data/raw/streaming_titles_raw.csv"
 
 # Map each service to its Watchmode source_id.
 # Confirm/update these against the current /v1/sources/ endpoint before running --
