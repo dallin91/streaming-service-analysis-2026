@@ -1,0 +1,20 @@
+# Environment / secrets
+.env
+venv/
+env/
+*.venv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Tableau
+*.twbx.bak
+*.tde
