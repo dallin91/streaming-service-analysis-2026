@@ -1,0 +1,17 @@
+service,plan_name,has_ads,monthly_price_usd
+Netflix,Standard (ad-free),No,19.99
+Netflix,Standard with Ads,Yes,7.99
+HBO Max,Ad-Free,No,18.49
+HBO Max,With Ads,Yes,10.99
+Disney+,Premium (ad-free),No,18.99
+Disney+,Basic with Ads,Yes,9.99
+Hulu,No Ads,No,18.99
+Hulu,With Ads,Yes,9.99
+Paramount+,Premium (ad-free),No,13.99
+Paramount+,Essential with Ads,Yes,7.99
+Peacock,Premium Plus (ad-free),No,16.99
+Peacock,Premium with Ads,Yes,10.99
+Peacock,Select with Ads (limited library),Yes,7.99
+Prime Video,Ad-free (base + Ultra add-on),No,13.98
+Prime Video,Standalone with Ads,Yes,8.99
+Apple TV+,Standard (no ad tier exists),No,12.99
