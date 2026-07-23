@@ -1,17 +1,33 @@
 -- Run this after running create_tables.sql
 
-DROP TABLE IF EXISTS titles_clean;
+-- Let's start by normalizing service names between the tables
+UPDATE raw_titles
+SET service = 'Prime Video'
+WHERE service = 'Amazon Prime Video';
 
-CREATE TABLE titles_clean AS
-SELECT service, id, title, CASE WHEN LOWER(type) LIKE '%movie%' THEN 'movie'
-WHEN LOWER(type) LIKE '%tv%' THEN 'tv_shows' ELSE 'other' END AS type_clean, year, genre_names, user_rating, critic_score, imdb_id, tmdb_id, us_rating
-FROM raw_titles
-WHERE service IS NOT NULL AND title IS NOT NULL;
+UPDATE pricing
+SET service = 'Max'
+WHERE service = 'HBO Max';
 
-DROP TABLE IF EXISTS service_title_counts;
+-- I'm going to delete any plans with a limited library because I'm not interested in a limited library
+DELETE FROM pricing
+WHERE plan_name LIKE '%limited library%';
 
-CREATE TABLE service_title_counts AS
-SELECT service, COUNT(*) FILTER (WHERE type_clean = 'movie') AS movie_count, COUNT(*) FILTER (WHERE type_clean = 'tv_show') AS tv_show_count,
-COUNT(*) AS total_title_count, ROUND(AVG(user_rating), 2) AS avg_user_rating, ROUND(AVG(critic_score), 2) AS avg_critic_score
-FROM titles_clean
+DROP TABLE IF EXISTS pricing_wide;
+
+-- A little reshaping of the pricing table to get each service down to just one row as a new table 
+CREATE TABLE pricing_wide
+AS
+SELECT service, 
+MAX(CASE WHEN has_ads = false THEN monthly_price_usd END) AS adfree_price,
+MIN(CASE WHEN has_ads = true THEN monthly_price_usd END) AS adsupported_price
+FROM pricing
 GROUP BY service;
+
+DROP TABLE IF EXISTS title_genres;
+
+-- The raw_titles table has a genre column that is a bit messy. Let's split that out into it's own table
+CREATE TABLE title_genres
+AS
+SELECT id, unnest(string_to_array(genre_names, '|')) AS genre
+FROM raw_titles;
