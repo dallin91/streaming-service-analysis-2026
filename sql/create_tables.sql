@@ -22,6 +22,6 @@ CREATE TABLE pricing (
     monthly_price_usd       NUMERIC
 );
 
-\copy raw_titles (service, id, title, type, year, genre_names, user_rating, critic_score, imdb_id, tmdb_id, us_rating) FROM 'data/raw/streaming_titles_raw.csv' WITH CSV HEADER
+\copy raw_titles (service, id, title, type, year, genre_names, user_rating, critic_score, imdb_id, tmdb_id, us_rating) FROM 'data/raw/streaming_titles_raw.csv' WITH CSV HEADER ENCODING 'win1252'
 
 \copy pricing (service, plan_name, has_ads, monthly_price_usd) FROM 'data/pricing/streaming_services_pricing.csv' WITH CSV HEADER
