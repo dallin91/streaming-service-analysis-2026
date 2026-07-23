@@ -18,3 +18,6 @@ Thumbs.db
 # Tableau
 *.twbx.bak
 *.tde
+
+# Watchmode pull script checkpoint (local resume cache, not source data)
+data/raw/.watchmode_details_checkpoint.json
