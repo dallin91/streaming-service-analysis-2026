@@ -31,3 +31,12 @@ CREATE TABLE title_genres
 AS
 SELECT id, unnest(string_to_array(genre_names, '|')) AS genre
 FROM raw_titles;
+
+DROP TABLE IF EXISTS titles_with_pricing;
+
+-- Join raw_titles with pricing_wide. This new table will be the base for further analysis, along with title_genres
+CREATE TABLE titles_with_pricing
+AS
+SELECT id, title, pricing_wide.service, type, year, user_rating, critic_score, us_rating, adfree_price, adsupported_price
+FROM pricing_wide 
+JOIN raw_titles ON raw_titles.service = pricing_wide.service;
