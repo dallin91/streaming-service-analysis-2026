@@ -13,9 +13,8 @@ WHERE service = 'HBO Max';
 DELETE FROM pricing
 WHERE plan_name LIKE '%limited library%';
 
-DROP TABLE IF EXISTS pricing_wide;
-
 -- A little reshaping of the pricing table to get each service down to just one row as a new table 
+DROP TABLE IF EXISTS pricing_wide;
 CREATE TABLE pricing_wide
 AS
 SELECT service, 
@@ -24,9 +23,8 @@ MIN(CASE WHEN has_ads = true THEN monthly_price_usd END) AS adsupported_price
 FROM pricing
 GROUP BY service;
 
-DROP TABLE IF EXISTS title_genres;
-
 -- The raw_titles table has a genre column that is a bit messy. Let's split that out into it's own table
+DROP TABLE IF EXISTS title_genres;
 CREATE TABLE title_genres
 AS
 SELECT id, unnest(string_to_array(genre_names, '|')) AS genre
@@ -60,9 +58,8 @@ DROP TABLE title_genres;
 ALTER TABLE title_genres_temporary
 RENAME TO title_genres;
 
-DROP TABLE IF EXISTS titles_with_pricing;
-
 -- Join raw_titles with pricing_wide. This new table will be the base for further analysis, along with title_genres
+DROP TABLE IF EXISTS titles_with_pricing;
 CREATE TABLE titles_with_pricing
 AS
 SELECT id, title, pricing_wide.service, type, year, user_rating, critic_score, us_rating, adfree_price, adsupported_price
