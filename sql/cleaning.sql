@@ -32,6 +32,34 @@ AS
 SELECT id, unnest(string_to_array(genre_names, '|')) AS genre
 FROM raw_titles;
 
+-- Consolidate genres where needed
+UPDATE title_genres
+SET genre = CASE genre
+WHEN 'Action' THEN 'Action & Adventure'
+WHEN 'Adventure' THEN 'Action & Adventure'
+WHEN 'Science Fiction' THEN 'Sci-Fi & Fantasy'
+WHEN 'Fantasy' THEN 'Sci-Fi & Fantasy'
+WHEN 'War' THEN 'War & Politics'
+WHEN 'Kids' THEN 'Family'
+WHEN 'Crime' THEN 'Crime & Mystery'
+WHEN 'Mystery' THEN 'Crime & Mystery'
+END
+WHERE genre IN ('Action','Adventure','Science Fiction','Fantasy','War','Kids','Crime','Mystery');
+
+-- Delete the TV Movie genre as that isn't really a genre
+DELETE FROM title_genres
+WHERE genre = 'TV Movie';
+
+-- With the genre consolidation, I need to get rid of duplicate lines. This will create a new temporary table, drop title_genres, 
+-- and rename the new table to title_genres
+CREATE TABLE title_genres_temporary
+AS
+SELECT DISTINCT id, genre
+FROM title_genres;
+DROP TABLE title_genres;
+ALTER TABLE title_genres_temporary
+RENAME TO title_genres;
+
 DROP TABLE IF EXISTS titles_with_pricing;
 
 -- Join raw_titles with pricing_wide. This new table will be the base for further analysis, along with title_genres
