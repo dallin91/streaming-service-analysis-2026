@@ -1,0 +1,196 @@
+service,genre,total_num_titles,avg_user_rating,avg_critic_score,adfree_price,user_rating_per_dollar
+Apple TV+,Sports,5,8.00,71.33,12.99,0.62
+Apple TV+,Nature,5,7.86,75.50,12.99,0.61
+Apple TV+,Horror,2,7.80,78.00,12.99,0.60
+Paramount+,War & Politics,5,8.22,79.80,13.99,0.59
+Apple TV+,Travel,5,7.54,66.75,12.99,0.58
+Paramount+,History,4,8.10,76.75,13.99,0.58
+Paramount+,Sports,2,8.05,90.00,13.99,0.58
+Prime Video,Supernatural,9,8.02,77.67,13.98,0.57
+Prime Video,Documentary,8,8.01,35.00,13.98,0.57
+Apple TV+,Animation,42,7.40,82.94,12.99,0.57
+Paramount+,Western,10,7.95,74.00,13.99,0.57
+Prime Video,Music,2,7.90,69.50,13.98,0.57
+Prime Video,News,2,7.90,58.50,13.98,0.57
+Apple TV+,Documentary,37,7.30,79.00,12.99,0.56
+Apple TV+,Family,50,7.27,79.38,12.99,0.56
+Apple TV+,War & Politics,9,7.27,69.44,12.99,0.56
+Prime Video,History,5,7.80,78.67,13.98,0.56
+Paramount+,Supernatural,8,7.71,81.57,13.99,0.55
+Paramount+,Music,3,7.70,88.50,13.99,0.55
+Prime Video,Talk,5,7.68,53.50,13.98,0.55
+Apple TV+,History,13,7.12,73.50,12.99,0.55
+Prime Video,Anime,21,7.65,88.14,13.98,0.55
+Apple TV+,Soap,1,7.10,85.00,12.99,0.55
+Prime Video,Crime & Mystery,85,7.62,71.38,13.98,0.54
+Apple TV+,Comedy,83,7.05,72.05,12.99,0.54
+Paramount+,Crime & Mystery,73,7.58,70.78,13.99,0.54
+Paramount+,Drama,134,7.57,73.12,13.99,0.54
+Prime Video,Sci-Fi & Fantasy,76,7.56,75.12,13.98,0.54
+Paramount+,News,3,7.57,34.00,13.99,0.54
+Apple TV+,Music,13,6.98,79.25,12.99,0.54
+Apple TV+,Sci-Fi & Fantasy,46,6.97,68.51,12.99,0.54
+Apple TV+,Drama,128,6.94,69.02,12.99,0.53
+Apple TV+,Romance,14,6.92,65.70,12.99,0.53
+Prime Video,Drama,136,7.44,72.06,13.98,0.53
+Apple TV+,Action & Adventure,58,6.91,63.77,12.99,0.53
+Apple TV+,Crime & Mystery,58,6.89,66.67,12.99,0.53
+Prime Video,Action & Adventure,94,7.41,74.37,13.98,0.53
+Prime Video,Comedy,82,7.40,72.21,13.98,0.53
+Paramount+,Thriller,25,7.40,70.96,13.99,0.53
+Paramount+,Sci-Fi & Fantasy,55,7.30,70.79,13.99,0.52
+Paramount+,Documentary,2,7.30,,13.99,0.52
+Apple TV+,Thriller,40,6.76,62.80,12.99,0.52
+Apple TV+,Supernatural,3,6.73,51.67,12.99,0.52
+Paramount+,Comedy,101,7.24,74.30,13.99,0.52
+Prime Video,Sports,3,7.23,90.00,13.98,0.52
+Prime Video,Animation,22,7.23,78.10,13.98,0.52
+Paramount+,Action & Adventure,86,7.21,69.24,13.99,0.52
+Paramount+,Horror,10,7.21,67.22,13.99,0.52
+Prime Video,Western,8,7.16,,13.98,0.51
+Prime Video,Nature,2,7.15,,13.98,0.51
+Paramount+,Talk,4,7.15,74.67,13.99,0.51
+Prime Video,Romance,19,7.13,65.29,13.98,0.51
+Prime Video,Game Show,9,7.12,69.50,13.98,0.51
+Prime Video,Thriller,22,7.10,67.38,13.98,0.51
+Prime Video,Family,33,7.06,75.60,13.98,0.51
+Paramount+,Animation,36,7.06,80.26,13.99,0.50
+Prime Video,War & Politics,4,7.05,84.50,13.98,0.50
+Prime Video,Reality,15,7.03,63.40,13.98,0.50
+Prime Video,Food,5,7.02,61.00,13.98,0.50
+Prime Video,Horror,14,7.01,78.50,13.98,0.50
+Paramount+,Family,45,6.84,73.84,13.99,0.49
+Paramount+,Romance,16,6.83,67.09,13.99,0.49
+Peacock,War & Politics,3,8.13,74.50,16.99,0.48
+Peacock,History,5,7.94,77.00,16.99,0.47
+Max,News,1,8.60,79.00,18.49,0.47
+Peacock,Western,5,7.86,70.00,16.99,0.46
+Paramount+,Reality,20,6.46,63.33,13.99,0.46
+Apple TV+,Reality,16,5.99,55.14,12.99,0.46
+Paramount+,Game Show,11,6.45,64.83,13.99,0.46
+Peacock,Supernatural,8,7.83,73.57,16.99,0.46
+Peacock,Documentary,11,7.74,35.00,16.99,0.46
+Apple TV+,Game Show,1,5.90,,12.99,0.45
+Peacock,Food,5,7.64,69.00,16.99,0.45
+Max,War & Politics,4,8.30,88.75,18.49,0.45
+Peacock,Crime & Mystery,77,7.61,71.75,16.99,0.45
+Peacock,Comedy,84,7.56,74.20,16.99,0.44
+Peacock,Sci-Fi & Fantasy,70,7.56,74.40,16.99,0.44
+Max,History,5,8.22,84.33,18.49,0.44
+Peacock,Soap,5,7.52,,16.99,0.44
+Disney+,History,2,8.40,87.00,18.99,0.44
+Hulu,History,2,8.40,87.00,18.99,0.44
+Hulu,Western,1,8.40,92.00,18.99,0.44
+Peacock,News,2,7.50,53.00,16.99,0.44
+Peacock,Drama,113,7.48,69.99,16.99,0.44
+Peacock,Thriller,31,7.41,69.76,16.99,0.44
+Peacock,Travel,1,7.40,,16.99,0.44
+Apple TV+,Talk,6,5.65,64.00,12.99,0.43
+Peacock,Action & Adventure,77,7.38,71.79,16.99,0.43
+Peacock,Romance,22,7.35,72.21,16.99,0.43
+Prime Video,Soap,8,6.04,,13.98,0.43
+Disney+,Western,2,8.20,92.00,18.99,0.43
+Disney+,Sports,1,8.20,,18.99,0.43
+Hulu,Sports,1,8.20,,18.99,0.43
+Disney+,Anime,35,8.15,88.61,18.99,0.43
+Paramount+,Soap,5,6.00,60.00,13.99,0.43
+Peacock,Animation,20,7.28,72.50,16.99,0.43
+Max,Drama,100,7.83,79.70,18.49,0.42
+Max,Animation,37,7.81,84.39,18.49,0.42
+Hulu,Anime,44,8.01,89.10,18.99,0.42
+Max,Sports,4,7.80,77.33,18.49,0.42
+Peacock,Family,38,7.16,67.67,16.99,0.42
+Max,Nature,6,7.78,79.00,18.49,0.42
+Max,Documentary,10,7.77,95.00,18.49,0.42
+Max,Western,3,7.77,79.67,18.49,0.42
+Hulu,Supernatural,9,7.97,80.75,18.99,0.42
+Max,Crime & Mystery,56,7.72,76.83,18.49,0.42
+Disney+,War & Politics,3,7.90,80.50,18.99,0.42
+Hulu,War & Politics,3,7.90,80.50,18.99,0.42
+Prime Video,Travel,1,5.80,,13.98,0.41
+Disney+,Crime & Mystery,67,7.87,77.37,18.99,0.41
+Hulu,Horror,11,7.87,83.70,18.99,0.41
+Hulu,Crime & Mystery,73,7.86,77.18,18.99,0.41
+Disney+,Action & Adventure,109,7.86,80.71,18.99,0.41
+Peacock,Anime,4,7.03,,16.99,0.41
+Disney+,Nature,2,7.85,,18.99,0.41
+Hulu,Sci-Fi & Fantasy,79,7.85,82.86,18.99,0.41
+Disney+,Animation,48,7.84,85.22,18.99,0.41
+Disney+,Supernatural,7,7.84,77.33,18.99,0.41
+Hulu,Action & Adventure,87,7.83,82.27,18.99,0.41
+Disney+,Drama,103,7.82,76.52,18.99,0.41
+Disney+,Sci-Fi & Fantasy,105,7.82,81.24,18.99,0.41
+Hulu,Animation,25,7.80,83.82,18.99,0.41
+Hulu,Comedy,99,7.79,80.09,18.99,0.41
+Max,Action & Adventure,114,7.56,74.79,18.49,0.41
+Disney+,Horror,9,7.76,81.88,18.99,0.41
+Disney+,Comedy,105,7.75,80.32,18.99,0.41
+Max,Comedy,70,7.54,77.39,18.49,0.41
+Max,Sci-Fi & Fantasy,92,7.53,75.58,18.49,0.41
+Peacock,Horror,15,6.92,68.85,16.99,0.41
+Netflix,War & Politics,8,8.14,84.50,19.99,0.41
+Peacock,Game Show,9,6.90,63.50,16.99,0.41
+Hulu,Nature,3,7.70,63.00,18.99,0.41
+Hulu,Drama,124,7.66,76.11,18.99,0.40
+Max,Supernatural,4,7.45,70.67,18.49,0.40
+Max,Romance,19,7.43,75.35,18.49,0.40
+Netflix,History,12,8.03,81.67,19.99,0.40
+Max,Anime,2,7.40,87.00,18.49,0.40
+Netflix,Food,1,8.00,,19.99,0.40
+Max,Thriller,35,7.37,75.44,18.49,0.40
+Disney+,Food,3,7.53,88.00,18.99,0.40
+Hulu,Documentary,7,7.53,,18.99,0.40
+Disney+,Romance,18,7.52,71.75,18.99,0.40
+Netflix,Anime,47,7.90,88.57,19.99,0.40
+Disney+,Documentary,6,7.50,,18.99,0.39
+Peacock,Talk,10,6.71,65.00,16.99,0.39
+Hulu,Thriller,22,7.48,72.06,18.99,0.39
+Peacock,Music,8,6.69,65.60,16.99,0.39
+Disney+,Thriller,22,7.47,71.11,18.99,0.39
+Disney+,Family,51,7.44,82.03,18.99,0.39
+Max,Talk,3,7.23,65.50,18.49,0.39
+Netflix,Supernatural,8,7.79,79.33,19.99,0.39
+Netflix,Sports,6,7.78,88.00,19.99,0.39
+Hulu,Romance,27,7.39,73.84,18.99,0.39
+Netflix,Horror,15,7.72,80.00,19.99,0.39
+Hulu,Food,5,7.32,72.33,18.99,0.39
+Max,Family,23,7.07,77.31,18.49,0.38
+Netflix,Sci-Fi & Fantasy,96,7.62,79.39,19.99,0.38
+Netflix,Action & Adventure,106,7.62,78.67,19.99,0.38
+Netflix,Crime & Mystery,78,7.61,76.38,19.99,0.38
+Netflix,Comedy,87,7.57,78.06,19.99,0.38
+Netflix,Music,2,7.55,86.00,19.99,0.38
+Netflix,Drama,162,7.55,76.75,19.99,0.38
+Peacock,Reality,26,6.41,62.10,16.99,0.38
+Netflix,Animation,29,7.54,82.25,19.99,0.38
+Max,Travel,2,6.95,,18.49,0.38
+Max,Horror,32,6.93,70.17,18.49,0.37
+Netflix,Thriller,43,7.48,75.54,19.99,0.37
+Disney+,Travel,1,7.10,,18.99,0.37
+Hulu,Travel,1,7.10,,18.99,0.37
+Max,Soap,2,6.85,,18.49,0.37
+Hulu,Family,29,6.99,79.25,18.99,0.37
+Disney+,Soap,3,6.97,70.00,18.99,0.37
+Netflix,Talk,2,7.30,,19.99,0.37
+Netflix,Romance,28,7.28,74.59,19.99,0.36
+Max,Reality,19,6.71,69.00,18.49,0.36
+Max,Food,6,6.70,,18.49,0.36
+Netflix,Western,1,7.20,,19.99,0.36
+Netflix,Family,27,7.19,71.54,19.99,0.36
+Hulu,Game Show,12,6.81,67.00,18.99,0.36
+Max,Game Show,5,6.48,,18.49,0.35
+Hulu,Reality,23,6.60,62.27,18.99,0.35
+Disney+,Game Show,8,6.59,66.40,18.99,0.35
+Netflix,Documentary,1,6.90,,19.99,0.35
+Netflix,Soap,2,6.80,70.00,19.99,0.34
+Disney+,Reality,18,6.43,61.00,18.99,0.34
+Hulu,Soap,7,6.03,70.00,18.99,0.32
+Disney+,Music,5,6.02,58.67,18.99,0.32
+Netflix,Reality,6,6.25,65.00,19.99,0.31
+Hulu,Music,4,5.60,56.25,18.99,0.29
+Disney+,News,2,5.55,,18.99,0.29
+Hulu,News,2,5.55,,18.99,0.29
+Disney+,Talk,4,4.83,43.00,18.99,0.25
+Hulu,Talk,5,4.80,43.00,18.99,0.25
+Netflix,Game Show,1,5.00,45.00,19.99,0.25
+Apple TV+,News,1,2.80,,12.99,0.22

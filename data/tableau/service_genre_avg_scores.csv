@@ -1,0 +1,196 @@
+service,genre,total_num_titles,avg_user_rating,avg_critic_score
+Max,News,1,8.60,79.00
+Hulu,History,2,8.40,87.00
+Hulu,Western,1,8.40,92.00
+Disney+,History,2,8.40,87.00
+Max,War & Politics,4,8.30,88.75
+Paramount+,War & Politics,5,8.22,79.80
+Max,History,5,8.22,84.33
+Disney+,Sports,1,8.20,
+Hulu,Sports,1,8.20,
+Disney+,Western,2,8.20,92.00
+Disney+,Anime,35,8.15,88.61
+Netflix,War & Politics,8,8.14,84.50
+Peacock,War & Politics,3,8.13,74.50
+Paramount+,History,4,8.10,76.75
+Paramount+,Sports,2,8.05,90.00
+Netflix,History,12,8.03,81.67
+Prime Video,Supernatural,9,8.02,77.67
+Prime Video,Documentary,8,8.01,35.00
+Hulu,Anime,44,8.01,89.10
+Apple TV+,Sports,5,8.00,71.33
+Netflix,Food,1,8.00,
+Hulu,Supernatural,9,7.97,80.75
+Paramount+,Western,10,7.95,74.00
+Peacock,History,5,7.94,77.00
+Prime Video,Music,2,7.90,69.50
+Hulu,War & Politics,3,7.90,80.50
+Disney+,War & Politics,3,7.90,80.50
+Netflix,Anime,47,7.90,88.57
+Prime Video,News,2,7.90,58.50
+Disney+,Crime & Mystery,67,7.87,77.37
+Hulu,Horror,11,7.87,83.70
+Apple TV+,Nature,5,7.86,75.50
+Peacock,Western,5,7.86,70.00
+Hulu,Crime & Mystery,73,7.86,77.18
+Disney+,Action & Adventure,109,7.86,80.71
+Disney+,Nature,2,7.85,
+Hulu,Sci-Fi & Fantasy,79,7.85,82.86
+Disney+,Animation,48,7.84,85.22
+Disney+,Supernatural,7,7.84,77.33
+Hulu,Action & Adventure,87,7.83,82.27
+Max,Drama,100,7.83,79.70
+Peacock,Supernatural,8,7.83,73.57
+Disney+,Drama,103,7.82,76.52
+Disney+,Sci-Fi & Fantasy,105,7.82,81.24
+Max,Animation,37,7.81,84.39
+Hulu,Animation,25,7.80,83.82
+Max,Sports,4,7.80,77.33
+Prime Video,History,5,7.80,78.67
+Apple TV+,Horror,2,7.80,78.00
+Hulu,Comedy,99,7.79,80.09
+Netflix,Supernatural,8,7.79,79.33
+Netflix,Sports,6,7.78,88.00
+Max,Nature,6,7.78,79.00
+Max,Documentary,10,7.77,95.00
+Max,Western,3,7.77,79.67
+Disney+,Horror,9,7.76,81.88
+Disney+,Comedy,105,7.75,80.32
+Peacock,Documentary,11,7.74,35.00
+Netflix,Horror,15,7.72,80.00
+Max,Crime & Mystery,56,7.72,76.83
+Paramount+,Supernatural,8,7.71,81.57
+Hulu,Nature,3,7.70,63.00
+Paramount+,Music,3,7.70,88.50
+Prime Video,Talk,5,7.68,53.50
+Hulu,Drama,124,7.66,76.11
+Prime Video,Anime,21,7.65,88.14
+Peacock,Food,5,7.64,69.00
+Netflix,Sci-Fi & Fantasy,96,7.62,79.39
+Prime Video,Crime & Mystery,85,7.62,71.38
+Netflix,Action & Adventure,106,7.62,78.67
+Netflix,Crime & Mystery,78,7.61,76.38
+Peacock,Crime & Mystery,77,7.61,71.75
+Paramount+,Crime & Mystery,73,7.58,70.78
+Paramount+,Drama,134,7.57,73.12
+Netflix,Comedy,87,7.57,78.06
+Paramount+,News,3,7.57,34.00
+Prime Video,Sci-Fi & Fantasy,76,7.56,75.12
+Peacock,Comedy,84,7.56,74.20
+Max,Action & Adventure,114,7.56,74.79
+Peacock,Sci-Fi & Fantasy,70,7.56,74.40
+Netflix,Music,2,7.55,86.00
+Netflix,Drama,162,7.55,76.75
+Max,Comedy,70,7.54,77.39
+Netflix,Animation,29,7.54,82.25
+Apple TV+,Travel,5,7.54,66.75
+Disney+,Food,3,7.53,88.00
+Max,Sci-Fi & Fantasy,92,7.53,75.58
+Hulu,Documentary,7,7.53,
+Peacock,Soap,5,7.52,
+Disney+,Romance,18,7.52,71.75
+Peacock,News,2,7.50,53.00
+Disney+,Documentary,6,7.50,
+Hulu,Thriller,22,7.48,72.06
+Netflix,Thriller,43,7.48,75.54
+Peacock,Drama,113,7.48,69.99
+Disney+,Thriller,22,7.47,71.11
+Max,Supernatural,4,7.45,70.67
+Prime Video,Drama,136,7.44,72.06
+Disney+,Family,51,7.44,82.03
+Max,Romance,19,7.43,75.35
+Prime Video,Action & Adventure,94,7.41,74.37
+Peacock,Thriller,31,7.41,69.76
+Paramount+,Thriller,25,7.40,70.96
+Peacock,Travel,1,7.40,
+Max,Anime,2,7.40,87.00
+Prime Video,Comedy,82,7.40,72.21
+Apple TV+,Animation,42,7.40,82.94
+Hulu,Romance,27,7.39,73.84
+Peacock,Action & Adventure,77,7.38,71.79
+Max,Thriller,35,7.37,75.44
+Peacock,Romance,22,7.35,72.21
+Hulu,Food,5,7.32,72.33
+Paramount+,Sci-Fi & Fantasy,55,7.30,70.79
+Netflix,Talk,2,7.30,
+Paramount+,Documentary,2,7.30,
+Apple TV+,Documentary,37,7.30,79.00
+Netflix,Romance,28,7.28,74.59
+Peacock,Animation,20,7.28,72.50
+Apple TV+,Family,50,7.27,79.38
+Apple TV+,War & Politics,9,7.27,69.44
+Paramount+,Comedy,101,7.24,74.30
+Prime Video,Sports,3,7.23,90.00
+Max,Talk,3,7.23,65.50
+Prime Video,Animation,22,7.23,78.10
+Paramount+,Action & Adventure,86,7.21,69.24
+Paramount+,Horror,10,7.21,67.22
+Netflix,Western,1,7.20,
+Netflix,Family,27,7.19,71.54
+Prime Video,Western,8,7.16,
+Peacock,Family,38,7.16,67.67
+Prime Video,Nature,2,7.15,
+Paramount+,Talk,4,7.15,74.67
+Prime Video,Romance,19,7.13,65.29
+Prime Video,Game Show,9,7.12,69.50
+Apple TV+,History,13,7.12,73.50
+Prime Video,Thriller,22,7.10,67.38
+Apple TV+,Soap,1,7.10,85.00
+Hulu,Travel,1,7.10,
+Disney+,Travel,1,7.10,
+Max,Family,23,7.07,77.31
+Paramount+,Animation,36,7.06,80.26
+Prime Video,Family,33,7.06,75.60
+Prime Video,War & Politics,4,7.05,84.50
+Apple TV+,Comedy,83,7.05,72.05
+Prime Video,Reality,15,7.03,63.40
+Peacock,Anime,4,7.03,
+Prime Video,Food,5,7.02,61.00
+Prime Video,Horror,14,7.01,78.50
+Hulu,Family,29,6.99,79.25
+Apple TV+,Music,13,6.98,79.25
+Apple TV+,Sci-Fi & Fantasy,46,6.97,68.51
+Disney+,Soap,3,6.97,70.00
+Max,Travel,2,6.95,
+Apple TV+,Drama,128,6.94,69.02
+Max,Horror,32,6.93,70.17
+Apple TV+,Romance,14,6.92,65.70
+Peacock,Horror,15,6.92,68.85
+Apple TV+,Action & Adventure,58,6.91,63.77
+Netflix,Documentary,1,6.90,
+Peacock,Game Show,9,6.90,63.50
+Apple TV+,Crime & Mystery,58,6.89,66.67
+Max,Soap,2,6.85,
+Paramount+,Family,45,6.84,73.84
+Paramount+,Romance,16,6.83,67.09
+Hulu,Game Show,12,6.81,67.00
+Netflix,Soap,2,6.80,70.00
+Apple TV+,Thriller,40,6.76,62.80
+Apple TV+,Supernatural,3,6.73,51.67
+Max,Reality,19,6.71,69.00
+Peacock,Talk,10,6.71,65.00
+Max,Food,6,6.70,
+Peacock,Music,8,6.69,65.60
+Hulu,Reality,23,6.60,62.27
+Disney+,Game Show,8,6.59,66.40
+Max,Game Show,5,6.48,
+Paramount+,Reality,20,6.46,63.33
+Paramount+,Game Show,11,6.45,64.83
+Disney+,Reality,18,6.43,61.00
+Peacock,Reality,26,6.41,62.10
+Netflix,Reality,6,6.25,65.00
+Prime Video,Soap,8,6.04,
+Hulu,Soap,7,6.03,70.00
+Disney+,Music,5,6.02,58.67
+Paramount+,Soap,5,6.00,60.00
+Apple TV+,Reality,16,5.99,55.14
+Apple TV+,Game Show,1,5.90,
+Prime Video,Travel,1,5.80,
+Apple TV+,Talk,6,5.65,64.00
+Hulu,Music,4,5.60,56.25
+Hulu,News,2,5.55,
+Disney+,News,2,5.55,
+Netflix,Game Show,1,5.00,45.00
+Disney+,Talk,4,4.83,43.00
+Hulu,Talk,5,4.80,43.00
+Apple TV+,News,1,2.80,
